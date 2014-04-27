@@ -164,8 +164,8 @@ The value of the C<object> property should be a L<DefHash>. Known properties:
 
 =item * spec => DEFHASH
 
-Required. Object data specification, currently follows L<SHARYANTO::TableSpec>
-except that the <pos> property is not used.
+Required. Object data specification, currently follows L<TableDef> except that
+the <pos> property is not used.
 
 =item * allow_extra_fields => BOOL (default: 0)
 
