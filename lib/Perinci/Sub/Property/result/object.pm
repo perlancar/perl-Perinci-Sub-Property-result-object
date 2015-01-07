@@ -33,8 +33,9 @@ declare_property(
             prio => 50,
         },
         handler => sub {
-            my ($self, %args) = @_;
-            my $obj_spec = $self->{_help_meta}{result}{object}{spec}
+            my ($self, $r) = @_;
+            my $meta = $r->{_help_meta};
+            my $obj_spec = $meta->{result}{object}{spec}
                 or return undef;
             my $text = __("Returns object/hash. Fields are as follow:");
             $text .= "\n\n";
