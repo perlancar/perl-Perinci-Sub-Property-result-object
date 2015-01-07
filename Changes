@@ -1,5 +1,10 @@
 Revision history for Perinci-Sub-Property-result-object
 
+0.03    2015-01-07 (PERLANCAR)
+
+	- Adjust to Perinci::CmdLine 1.43.
+
+
 0.02     2014-06-03 (SHARYANTO)
 
          - No functional changes.

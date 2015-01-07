@@ -1,5 +1,8 @@
 package Perinci::Sub::Property::result::object;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
@@ -8,8 +11,6 @@ use warnings;
 use Locale::TextDomain::UTF8 'Perinci-Sub-Property-result-object';
 use Perinci::Object::Metadata;
 use Perinci::Sub::PropertyUtil qw(declare_property);
-
-# VERSION
 
 declare_property(
     name => 'result/object',
